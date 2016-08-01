@@ -47,7 +47,16 @@ h4 {
 li {
 	list-style-type: square;
 }
+.menu {
+	background-position:bottom;
+	border-radius: 5px;
+	text-decoration:none;
+}
 
+.menu.active {
+color:black;
+font-weight:bold;
+}
 a:hover {
 	font-weight: bold;
 }
